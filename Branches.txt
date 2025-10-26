@@ -1,0 +1,14 @@
+Conceito de Branch 
+
+Branch - Ramificação do projeto
+Você pode criar uma Branch que não afete em nada na ramificação principal 
+
+"git branch" - Lista as Ramificações e indica qual branch está ativa no momento
+
+"git checkout -b <Nome_Branch>" - Cria uma ramificação e dá um nome pra ele
+    "checkout" - Cria e alterna para o novo tipo criado (Caso o arquivo já exista, ele apenas alterna)
+    "-b" - indica o tipo de arquivo criado, ou seja um branch (Usado só quando se cria o arquivo)
+
+"git merge <Nome_Branch>" - Pega todos os arquivos da ramificação e coloca na ramificação em que está, além dos commits
+
+"git branch -d <Nome_Branch>" - Deleta a Branch
