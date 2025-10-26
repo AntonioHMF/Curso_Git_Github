@@ -2,3 +2,5 @@ Teste Para mais de 1 branches
 Este é o arquivo 01
 
 Nova linha
+
+Teste para conflitos
