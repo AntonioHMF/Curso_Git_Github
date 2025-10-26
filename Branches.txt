@@ -14,3 +14,5 @@ Você pode criar uma Branch que não afete em nada na ramificação principal
 "git branch -d <Nome_Branch>" - Deleta a Branch
 
 #Comandos Genericos
+
+#Comandos Estranhos
