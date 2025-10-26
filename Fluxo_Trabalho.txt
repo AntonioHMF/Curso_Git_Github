@@ -6,3 +6,6 @@
 6. git status
 7. git commit -m "Mensagem"
 8. Volta para o passo 3
+
+
+Para alter o conflito de um merge, é necessário verificar as duas alterações que dão conflito e escolher qual vai ficar
