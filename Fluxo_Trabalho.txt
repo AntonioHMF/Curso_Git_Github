@@ -1,0 +1,8 @@
+1. Criar o diretório (pasta) do projeto
+2. Inicar o git dentro do diretório criado (git init.)
+3. Edita ou cria arquivos
+4. git status
+5. git add <nome arquivo>
+6. git status
+7. git commit -m "Mensagem"
+8. Volta para o passo 3

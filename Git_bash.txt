@@ -1,0 +1,64 @@
+Comandos Git Bash - Terminal Bash - Linguagem Bash
+
+"pwd" - Em qual diretório você está na CPU
+
+"ls" - Mostra o que tem dentro do diretório
+
+"cd" - Mover para uma pasta (cd "Nome da Pasta")
+
+
+"ls -a" - Mostra todos os arquivos, até os ocultos
+
+"clear" - limpa o terminal
+
+
+Comandos GIT -
+
+"git init ." - inicia um repositório git onde o usuário está no Bash
+    "git" - tipo de repositório
+    "init" - inicializar um repositório git
+    "." - A pasta que a gnt se encontra (Toda pasta possui 2 arquivos, "." que referencia a própria pasta e ". ." que referencia a pasta hierarquicamente superior a ela)
+
+"git status" - Verificar o status da branch atual
+    $ git status
+    On branch master
+
+    No commits yet
+
+    Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+            arquivo_1.txt
+
+    nothing added to commit but untracked files present (use "git add" to track)
+  
+    "Commit" - Estado específico de um projeto, como uma fotografia, salva como o projeto está em um determinado momento
+    "Untracked files" - Arquivos que não estão "trackeados", governados pelo versionamento do GIT,  pelo GIT]
+
+"git add <"Nome_Arquivo">" - adiciona um arquivo na pasta git (git add arquivo_1.txt) (Mudou para a fase unstage para a fase stage) (stage - Estado de pré-save)
+
+"git commit -m" - Executa um commit (git commit -m "Mensagem")
+    "-m" - Deixa uma mensagem
+
+"git log" - Histórico do arquivo git
+
+"git add ." - Deixar todos os arquivos que estão untracked e modified em staged
+
+"git reset" - Deleta o último commit feito
+
+"git diff <Nome_Arquivo>" - Mostra o que foi alterado no arqruivo (Compara o status atual com o status anterior)
+
+
+Conceito de Branch 
+
+Branch - Ramificação do projeto
+Você pode criar uma Branch que não afete em nada na ramificação principal 
+
+"git branch" - Lista as Ramificações e indica qual branch está ativa no momento
+
+"git checkout -b <"Nome_Branch">" - Cria uma ramificação e dá um nome pra ele
+    "checkout" - Cria e alterna para o novo tipo criado (Caso o arquivo já exista, ele apenas alterna)
+    "-b" - indica o tipo de arquivo criado, ou seja um branch
+
+"git merge <Nome_Branch>" - Pega todos os arquivos da ramificação e coloca na ramificação em que está, além dos commits
+
+"git branch -d <Nome_Branch>" - Deleta a Branch
