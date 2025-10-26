@@ -12,3 +12,5 @@ Você pode criar uma Branch que não afete em nada na ramificação principal
 "git merge <Nome_Branch>" - Pega todos os arquivos da ramificação e coloca na ramificação em que está, além dos commits
 
 "git branch -d <Nome_Branch>" - Deleta a Branch
+
+#Comandos Genericos
