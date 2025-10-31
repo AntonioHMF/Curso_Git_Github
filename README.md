@@ -1,4 +1,4 @@
-\# Curso TMW Git \& GitHub 2025
+# Curso TMW Git \& GitHub 2025
 
 Aprendendo a mexer com o versionamento de código e repositórios remotos com GitHub.
 
@@ -28,7 +28,7 @@ Tendo como base os vídeos de "Introdução ao Git e GitHub" do Téo Calvo, disp
 
 
 
-\## Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
+## Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
 
 01\. git clone <endereco do projeto>
 
@@ -56,7 +56,7 @@ Tendo como base os vídeos de "Introdução ao Git e GitHub" do Téo Calvo, disp
 
 
 
-\## Fluxo de trabalho GitHub <> Local (projetos open-source)
+## Fluxo de trabalho GitHub <> Local (projetos open-source)
 
 01\. Fork do projeto para seu próprio github
 
