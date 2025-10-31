@@ -47,4 +47,4 @@ Comandos GIT -
 
 "git diff <Nome_Arquivo>" - Mostra o que foi alterado no arqruivo (Compara o status atual com o status anterior)
 
-
+"git remote add" - Adiciona uma origem da algum outro lugar com o do local
