@@ -1,0 +1,45 @@
+# O que é Git Flow?
+    Em um projeto em que estão trabalhando muitas pessoas, é comum haver confusões nas etapas de desenvolvimentos, programadores não entendendo as alterações e tudo mais, por conta disso, houve uma convenção de como devem ser feitos as branches e commits para que não se tenha esse tipo de cofusão, tendo um fluxo de Git muito mais fácil de enteder
+## Conventional Commits
+    ### Convenção de mensagens de Commit
+            !type(?scope)/!subject
+            <?body>
+            <?footer>
+        "!" = Atributos obrigatórios
+        "?" = Atributos opcionais
+        "type" = Tipo de commit
+        "scope" = Contexto do Commit
+        "subject" = Assunto/mensagem do coomit
+        "body" = Descrição detalhada das alterações feitas
+        "footer" = Declaração de Breaking Changes (Quebra de Compatibilidade com as versões anteriores)
+    
+    ### Tipos de Commits
+        test - Qualquer tipo de criação ou alteração do código de teste
+        feat - Indica o desenvolvimento de uma nova feature ao projeto
+        refactor - Quando houver uma refatoração de código que não tenha qualquer tipo de impacto na lógica/regras de negócio do sistema
+        style - Empregado quando há mudanças de formatação e estilo de código que não alteram o sistema de nenhuma formatação
+        fix - Quando há correção de erros que estão gerando bugs no sistema
+        chore - Indica mudanças no projeto que não afetem o sistema ou arquivos de teste (Mudanças de Desenvolvimento)
+        docs Quando há mudanças na documentação do projeto
+        build - Utilizada para indicar mudanças que afetam o processo de build do projeto ou dependências externas
+        perf - Indica uma alteração que melhorou a performance do sistema
+        ci - Utilizado para maudanças nos arquivos de configuração de ci
+        revert - Indica a reversão de um commit anterior
+    
+    ### Contextualizando o Commit
+        Ele contextualiza onde você está utilizando o commit, para entender o que exatamante está senod feito
+        Deve ser feito entre parentêses o scope
+        Podem ser colocados múltiplos valores(Separando com "\", "/" e ",")
+    
+    ### Exemplo de Commit 
+        git commit -m "feat(UserService): add /getAppointments endpoint"
+        git commit -m "refactor(web/mobile): change createUser() logs"
+    
+
+## Fluxo de Trabalho 
+1. Criar uma Brach no GitHub
+2. Execute "git fetch" que traz todas as branches do remeto ao local
+3. Execute "git checkout <branch que quer usar>"
+4. Execute "git pull origin <branch que está>" para verificar se todos os arquivos do remoto estão de acordo no local
+
+
